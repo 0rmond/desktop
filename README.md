@@ -15,6 +15,7 @@ You'll want to move everything from within the desktop folder to your actual des
 
 ```bash
 sudo mv -v ~/desktop/* ~/
+sudo mv -v ~/desktop/.* ~/
 ```
 
 Now we need to tell Arch that the post-installation bash script can be executable before running it:
