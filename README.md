@@ -11,6 +11,12 @@ This installs git, which allows us to then pull from this repo:
 sudo git clone "https://github.com/0rmond/desktop"
 ```
 
+You'll want to move everything from within the desktop folder to your actual desktop:
+
+```bash
+sudo mv -v ~/desktop/* ~/
+```
+
 Now we need to tell Arch that the post-installation bash script can be executable before running it:
 
 ```bash
