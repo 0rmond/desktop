@@ -1,0 +1,16 @@
+!! PERL SCRIPTS !!
+URxvt.perl-ext-common:	resize-font,clipboard
+
+!! FONT !!
+! Set font !
+urxvt.font:	xft:SourceCodePro-Regular:size=12
+URxvt.keysym.C-1: resize-font:smaller
+URxvt.keysym.C-2: resize-font:bigger
+
+!! REMOVE SCROLL BAR !!
+URxvt*scrollBar: False
+
+!! CLIPBOARD !!
+URxvt.clipboard.autocopy:	true
+URxvt.keysym.Control-Alt-c:	perl:clipboard:copy
+URxvt.keysym.Control-Alt-v:	perl:clipboard:paste
